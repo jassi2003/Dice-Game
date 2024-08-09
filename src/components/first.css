@@ -1,0 +1,160 @@
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container img{
+    height: 100vh;
+    width: auto;
+}
+.container2{
+    margin-left: 20vh;
+}
+.container2 h1{
+  font-size: 4rem;
+}
+
+button{
+    height: 10vh;
+    width: 20vh;
+    border-radius: 20px;
+color: white;
+background-color: black;
+
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+.container3{
+    display: flex;
+ justify-content: space-between;
+}
+
+.score{
+    border: 2px solid transparent;
+    height: 15vh;
+    width: 25vh;
+    border-radius: 20px;
+justify-content: center;
+align-items: center;
+}
+.score h1{
+    margin-left: 11vh;
+}
+.score p{
+    font-size: 1.5rem;
+}
+
+.numbers-container{
+    display: flex;
+    gap: 25px;
+    margin-left: 125vh;
+    margin-top: -15vh;
+}
+.numbers{
+    /* display: flex;
+    gap: 20px; */
+  /* background-color: ${(props)=>props.isSelected ? "black" :"white"} ; */
+}
+.numbers .selected {
+    background-color: black;
+    color: white  ;
+
+}
+
+
+.numbers h1{
+  
+    border: 2px solid black;
+    place-items: center;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+  
+}
+.para{
+    margin-left: 165vh;
+    font-size: 2rem;
+    margin-top: 1vh;
+}
+/* .numbers h1:hover{
+    background-color: black;
+    color: white;
+
+} */
+
+
+.rolldice-container{
+    /* border: 2px solid red; */
+    height: 50vh;
+    width: 40vh;   
+    justify-content: center;
+    margin-top: 17vh;
+    margin-left: 70vh;
+    
+
+}
+.roll{
+    height: 25vh;
+    margin-left: 5vh;
+    cursor: pointer;
+}
+
+.reset{
+    margin-left: 6px;
+    height: 8vh;
+    background-color: white;
+    color: black;
+    width: 35vh;
+    font-size: 1.1em;
+    margin-top: 10px;
+
+}
+.click{
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.rules{
+    font-size: 1.5rem;
+    height: 8vh;
+    width: 35vh;
+    margin: 10px;
+    font-size: 1.1em;
+
+
+}
+/* first.css */
+.error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.btnsss{
+    margin-top: -20vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70vh;
+}
+.rule{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    width: 90vh;
+    margin-left: 45vh;
+    background-color:rgb(227, 214, 189);
+text-align: center;
+}
+.rule p{
+    font-size: 1.1rem;
+}
